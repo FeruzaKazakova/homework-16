@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import styled from 'styled-components';
 import {Card} from '../components/Card'
 
-const Products = ({onSubmitHandler}) => {
+const Products = () => {
     const navigate = useNavigate()
 
     const productItems = [
